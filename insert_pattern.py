@@ -1,3 +1,5 @@
+import skimage
+
 def insert_pattern(background_img, pattern, location):
     """Inserts a pattern onto a background, at given location. Returns new image."""
     img = background_img.copy()

@@ -1,3 +1,5 @@
+from insert_pattern import insert_pattern
+
 def tile_horizontally(background_img, pattern, start_location, repetitions, shift):
     "Tiles a pattern on a background image, repeatedly with a given shift."
     img = background_img.copy()
