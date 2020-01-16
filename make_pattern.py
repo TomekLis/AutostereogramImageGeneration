@@ -1,5 +1,5 @@
 import numpy as np
 
-def make_pattern(shape=(16, 16), levels=64):
+def make_pattern(shape=(16, 16), levels=1024):
     "Creates a pattern from gray values."
-    return np.random.randint(0, levels - 1, shape) / levels
+    return np.random.randint(0, levels - 1, shape) 
